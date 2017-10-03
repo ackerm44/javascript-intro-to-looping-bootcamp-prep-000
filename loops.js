@@ -1,4 +1,3 @@
-var array = []; 
 
 function forLoop(array) {
   for (i = 0; i < 25; i++) {
@@ -7,6 +6,7 @@ function forLoop(array) {
     }
     else array.push("I am " + i + " strange loops");
   }
+  return array; 
 }
 
 function whileLoop(i) {
